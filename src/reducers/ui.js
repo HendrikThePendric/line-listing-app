@@ -52,6 +52,7 @@ export const SET_UI_REPETITION = 'SET_UI_REPETITION'
 
 export const DEFAULT_SORT_DIRECTION = 'asc'
 export const FIRST_PAGE = 1
+export const PAGE_SIZE = 100
 
 const EMPTY_UI = {
     draggingId: null,
@@ -75,6 +76,7 @@ const EMPTY_UI = {
         sortField: null,
         sortDirection: DEFAULT_SORT_DIRECTION,
         page: FIRST_PAGE,
+        pageSize: PAGE_SIZE,
     },
 }
 
@@ -107,6 +109,7 @@ export const DEFAULT_UI = {
         sortField: null,
         sortDirection: DEFAULT_SORT_DIRECTION,
         page: FIRST_PAGE,
+        pageSize: PAGE_SIZE,
     },
 }
 
